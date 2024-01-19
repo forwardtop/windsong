@@ -1,10 +1,11 @@
 import React from 'react';
-import { Header } from '../components';
+import { Header, LogoSection, StickyBackground } from '../components';
 function HomePage() {
     return (
       <div>
       <Header />
-        <h1> HOME PAGE</h1>
+      <LogoSection />
+      <StickyBackground />
       </div>
     );
   }

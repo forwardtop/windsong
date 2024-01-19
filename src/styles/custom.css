@@ -1,4 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-display: block;
+  font-family: "Lato 3";
+  src: url('../fonts/Lato-Bold.woff2') format('woff2');
+  font-weight: 700
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Lato 2";
+  src: url('../fonts/Lato-Regular.woff2') format('woff2');
+  font-weight: 400
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Lato 6";
+  src: url('../fonts/Lato-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Lato 4";
+  src: url('../fonts/Lato-Black.woff2') format('woff2');
+  font-weight: 900
+}
 
 :root {
   --clr-bg-header: #3D8361;
@@ -18,7 +46,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  overflow: hidden;
 }
 
 ul {
@@ -37,22 +64,6 @@ header {
   z-index: 1000;
 }
 
-section {
-  position: relative;
-  height: calc(100vh - 3rem);
-  width: 100%;
-  background: url("https://i.postimg.cc/TPn6kNJ2/bg.jpg") no-repeat top center / cover;
-  overflow: hidden;
-}
-
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(30, 130, 95, 0.5);
-}
 
 .container {
   max-width: 65rem;
@@ -457,4 +468,85 @@ section {
     opacity: 0;
     transform: translateY(15px);
   }
+}
+.logo-heading-1{
+  font-family: "Lato 2";
+  font-size: 20px!important;
+  font-size: calc(30px * var(--f));
+  line-height: 1.201;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #666;
+  background-color: initial;
+  text-shadow: none;
+}
+.logo-heading-2{
+  font-family: "Lato 6";
+    font-size: 20px!important;
+    font-size: calc(20px * var(--f));
+    line-height: 1.201;
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #666;
+    background-color: initial;
+    text-shadow: none;
+}
+.sticky-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sticky-bg-text{
+  font-family: "Lato 2";
+    font-size: 20px;
+    font-size: calc(20px * var(--f));
+    line-height: 1.401;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #666;
+    background-color: initial;
+    text-shadow: none;
+}
+.p5{
+  text-indent: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.background-image-1 {
+  background-image: url('../assets/images/sticky-background-1.webp');
+  background-repeat:no-repeat;
+  background-position:50% 100%;
+  background-size:cover;
+}
+
+.background-image-2 {
+  background-image: url('../assets/images/sticky-background-2.webp');
+  background-repeat:no-repeat;
+  background-position:50% 100%;
+  background-size:cover
+}
+.sticky-bg-contents{
+  z-index: 11;
+    pointer-events: auto;
+    min-width: 428px;
+    width: 428px;
+    overflow: hidden;
+    height: 468px;
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: top;
 }
