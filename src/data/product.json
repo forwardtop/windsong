@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "BIRTHDAY PARTY CRUISE",
+      "description": "For Families and Friends",
+      "imgURL": "../assets/images/freya-s-hens-party.webp",
+      "details": "Enjoy an action packed day sailing Curlew Escape to the Tangalooma Wrecks and snorkelling amongst the clear water surrounded by hundreds of brightly coloured fish.",
+      "cost": "$2,390",
+      "members": 12
+    },
+    {
+      "id": 2,
+      "title": "HENS’ PARTY CRUISE",
+      "description": "For Brides and Their Friends",
+      "imgURL": "../assets/images/freya-s-hens-party.webp",
+      "details": "Slip away for a romantic short overnight break aboard Curlew Escape. Laze away the afternoons and watch the sunset over the water with beautiful nature all around.",
+      "cost": "$3,200",
+      "members": 2 
+    },
+    {
+      "id": 3,
+      "title": "SUNSET CRUISE",
+      "description": "For Everyone",
+      "imgURL": "../assets/images/freya-s-hens-party.webp",
+      "details": "Enjoy a late afternoon sail amongst the western Moreton Bay islands and watch the sunset over the water with the city as the backdrop.",
+      "cost": "$1,100",
+      "members": 12
+    }
+  ]
+  

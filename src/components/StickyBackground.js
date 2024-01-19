@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/images/yacht.webp"
+import images from "../assets/"
 const StickyBackground = () => {
   return (
     <>
@@ -31,7 +31,7 @@ const StickyBackground = () => {
         </div>
         <div className="flex justify-center w-1/2 items-center">
           <img
-            src={img}
+            src={images.yacht}
             className="p-5"
             alt="..."
           />
