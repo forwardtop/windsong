@@ -3,7 +3,7 @@ import img from "../assets/images/yacht.webp"
 const StickyBackground = () => {
   return (
     <>
-      <div class="bg-fixed overflow-auto h-[100vh] w-full background-image-1"></div>
+      <div className="bg-fixed overflow-auto h-[100vh] w-full background-image-1"></div>
       <div className="flex flex-col lg:flex-row w-[960px] m-auto">
         <div className="flex flex-col justify-between w-1/2 sticky-bg-contents p-5">
           <p className="sticky-bg-text p5">
@@ -29,7 +29,7 @@ const StickyBackground = () => {
           </p>
           <h2 className="">MAKE YOUR SPECIAL EVENT ONE TO REMEMBER</h2>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center w-1/2 items-center">
           <img
             src={img}
             className="p-5"
@@ -37,7 +37,7 @@ const StickyBackground = () => {
           />
         </div>
       </div>
-      <div class="bg-fixed overflow-auto h-[100vh] w-full background-image-2"></div>
+      <div className="bg-fixed overflow-auto h-[100vh] w-full background-image-2"></div>
     </>
   );
 };
