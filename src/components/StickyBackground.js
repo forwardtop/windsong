@@ -3,7 +3,7 @@ const StickyBackground = () => {
   return (
     <>
       <div className="bg-fixed overflow-auto h-[100vh] w-full background-image-1"></div>
-      <div className="flex flex-col lg:flex-row w-[960px] m-auto">
+      <div className="flex flex-col lg:flex-row lg:w-[960px] m-auto justify-center items-center">
         <div className="flex flex-col justify-between w-1/2 sticky-bg-contents p-5">
           <p className="sticky-bg-text p5">
             Perfect for celebrating birthday parties, hens’ parties, family
