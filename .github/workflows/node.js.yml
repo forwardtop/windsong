@@ -1,0 +1,68 @@
+name: Deploy website on push
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  uploading:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Prune Docker system
+        run: docker system prune -a
+
+      - name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.windsong.au 
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          server-dir: /public_html/
+          port: 21
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: uploading
+
+    steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 20  # Use the desired Node.js version
+
+      - name: Cache Clean
+        run: npm cache clean --force
+
+      # - name: Change directory to /public_html
+      #   run: cd public_html
+      
+      # - name: Install dependencies
+      #   run: yarn install
+      #   working-directory: public_html
+      
+      # - name: Build
+      #   run: yarn build
+      #   working-directory: public_html
+    
+
+      - name: Install pm2
+        run: npm install -g pm2
+
+      - name: Check if pm2 app is running
+        run: pm2 describe windsong || echo "Not running"
+        id: pm2_check
+
+      - name: Start pm2 if not running
+        run: pm2 start yarn --name windsong -- start
+        if: steps.pm2_check.outputs.stdout == 'Not running'
+
+      - name: Restart pm2
+        run: pm2 restart windsong
+        if: steps.pm2_check.outputs.stdout != 'Not running'
