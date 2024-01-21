@@ -31,6 +31,7 @@ const HeroVideo = () => {
             autoPlay // Add autoplay attribute
             muted // Mute the video
             controls={false} // Hide controls
+            loop
           >
             Your browser does not support the video tag.
           </video>
