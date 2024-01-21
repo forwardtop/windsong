@@ -5,7 +5,7 @@ const Product = ({ product }) => {
   const { title, description, imgURL, details, cost, members } = product;
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-2xl font-bold mt-12">{title}</h2>
+      <h2 className="text-4xl mt-12">{title}</h2>
       <p>{description}</p>
       <img src={imgURL} alt={title} className="max-w-full mt-4" />
       <p className="mt-4 max-w-96">{details}</p>

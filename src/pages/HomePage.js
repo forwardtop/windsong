@@ -7,6 +7,7 @@ import {
   MostPopular,
   Product,
 } from "../components";
+import HeroVideo from "../components/HeroVideo";
 function HomePage() {
   return (
     <div className="text-gray-600">
@@ -23,6 +24,13 @@ function HomePage() {
           ))}
         </div>
       </div>
+      <div className="flex justify-center items-center mt-5">
+        <button className="text-blue-500 bg-white border border-solid border-blue-500 px-4 py-2 mt-4 hover:text-white hover:bg-blue-500 duration-300">
+        SEE THE COMPLETE LIST
+        </button>
+      </div>
+
+      <HeroVideo />
     </div>
   );
 }

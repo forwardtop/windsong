@@ -11,7 +11,7 @@ function MostPopular() {
             </div>
         </div>
         <div className='flex justify-center mt-6'>
-            <h2 className='text-4xl'>Our Most Popular Moreton Bay Sailing Cruises</h2>
+        <h2 className='text-4xl'>Our Most Popular Moreton Bay Sailing Cruises</h2>
         </div>
 
       </div>

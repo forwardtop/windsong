@@ -4,12 +4,12 @@
     "label": "Destination",
     "link": " ",
     "submenu": [
-      { "label": "Horseshoe Bay, Peel Is", "link": "/destination/horseshoe-bay" },
-      { "label": "Platypus Bay, Peel Is", "link": "/destination/platypus-bay" },
-      { "label": "The Lazarette, Peel Is", "link": "/destination/the-lazarette" },
-      { "label": "Bird Islet Sandbar", "link": "/destination/bird-islet-sandbar" },
-      { "label": "Lucinda Bay, Moreton Is", "link": "/destination/lucinda-bay" },
-      { "label": "Tangalooma, Moreton Is", "link": "/destination/tangalooma" }
+      { "label": "Horseshoe Bay, Peel Is", "link": "/destination/horseshoe-bay", "breadCrumb": "Destination: Horseshoe Bay, Peel Island" },
+      { "label": "Platypus Bay, Peel Is", "link": "/destination/platypus-bay", "breadCrumb": "Destination: Platypus Bay, Peel Island" },
+      { "label": "The Lazarette, Peel Is", "link": "/destination/the-lazarette", "breadCrumb": "Destination: The Lazarette, Peel Island" },
+      { "label": "Bird Islet Sandbar", "link": "/destination/bird-islet-sandbar", "breadCrumb": "Destination: Bird Islet Sandbar & Goat Island" },
+      { "label": "Lucinda Bay, Moreton Is", "link": "/destination/lucinda-bay", "breadCrumb": "Lucinda Bay, Moreton Island" },
+      { "label": "Tangalooma, Moreton Is", "link": "/destination/tangalooma", "breadCrumb": "Snorkel The Tangalooma Wrecks, Moreton Island" }
     ]
   },
   {
@@ -17,17 +17,17 @@
     "label": "Cruises",
     "link": " ",
     "submenu": [
-      { "label": "Birthday Parties", "link": "/cruises/birthday-parties" },
-      { "label": "Afternoon Sail", "link": "/cruises/afternoon-sail" },
-      { "label": "Sunset sail", "link": "/cruises/sunset-sail" },
-      { "label": "Weekend Sail Training", "link": "/cruises/weekend-sail-training" },
-      { "label": "Hens Parties", "link": "/cruises/hens-parties" },
-      { "label": "Employee Incentives", "link": "/cruises/employee-incentives" },
-      { "label": "Corporate Team Building", "link": "/cruises/corporate-team-building" },
-      { "label": "WAGs", "link": "/cruises/wags" },
-      { "label": "Wedding Reception Arrivals", "link": "/cruises/wedding-reception-arrivals" },
-      { "label": "Sunset Sail & Stay", "link": "/cruises/sunset-sail-and-stay" },
-      { "label": "Overnight Break Cruise", "link": "/cruises/overnight-break-cruise" }
+      { "label": "Birthday Parties", "link": "/cruises/birthday-parties", "breadCrumb": "Birthday Parties" },
+      { "label": "Afternoon Sail", "link": "/cruises/afternoon-sail", "breadCrumb": "Afternoon Sail" },
+      { "label": "Sunset sail", "link": "/cruises/sunset-sail", "breadCrumb": "Sunset sail" },
+      { "label": "Weekend Sail Training", "link": "/cruises/weekend-sail-training", "breadCrumb": "Weekend Sail Training" },
+      { "label": "Hens Parties", "link": "/cruises/hens-parties", "breadCrumb": "Hens’ Parties" },
+      { "label": "Employee Incentives", "link": "/cruises/employee-incentives", "breadCrumb": "Afternoon Sail" },
+      { "label": "Corporate Team Building", "link": "/cruises/corporate-team-building", "breadCrumb": "Employee Incentives, Reward & Christmas Party Cruises" },
+      { "label": "WAGs", "link": "/cruises/wags", "breadCrumb": "Team Building: WAGS Social Racing on Wednesday Afternoons at RQYS" },
+      { "label": "Wedding Reception Arrivals", "link": "/cruises/wedding-reception-arrivals", "breadCrumb": "Wedding Reception Arrivals" },
+      { "label": "Sunset Sail & Stay", "link": "/cruises/sunset-sail-and-stay", "breadCrumb": "Sunset Sail & Stay" },
+      { "label": "Overnight Break Cruise", "link": "/cruises/overnight-break-cruise", "breadCrumb": "Overnight Break" }
     ]
   },
   {
@@ -41,8 +41,8 @@
     "label": "Yacht",
     "link": " ",
     "submenu": [
-      { "label": "Yacht Features", "link": "/yacht/yacht-features" },
-      { "label": "Yacht Specification", "link": "/yacht/yacht-specification" }
+      { "label": "Yacht Features", "link": "/yacht/yacht-features", "breadCrumb": "On Board" },
+      { "label": "Yacht Specification", "link": "/yacht/yacht-specification", "breadCrumb": "Specifications" }
     ]
   },
   {
@@ -50,11 +50,11 @@
     "label": "About",
     "link": " ",
     "submenu": [
-      { "label": "Pay for your Cruise", "link": "/about/pay-for-your-cruise" },
-      { "label": "Catering and Dining", "link": "/about/catering-and-dining" },
-      { "label": "Contact Us", "link": "/about/contact-us" },
-      { "label": "Getting There", "link": "/about/getting-there" },
-      { "label": "COVID Safe Plan", "link": "/about/covid-safe-plan" }
+      { "label": "Pay for your Cruise", "link": "/about/pay-for-your-cruise", "breadCrumb": "Payment" },
+      { "label": "Catering and Dining", "link": "/about/catering-and-dining", "breadCrumb": "Catering & Dining Onboard" },
+      { "label": "Contact Us", "link": "/about/contact-us", "breadCrumb": "Contact Us" },
+      { "label": "Getting There", "link": "/about/getting-there", "breadCrumb": "Getting There Manly Boat Harbour, Brisbane" },
+      { "label": "COVID Safe Plan", "link": "/about/covid-safe-plan", "breadCrumb": "COVID Safe Plan" }
     ]
   },
   {
@@ -62,8 +62,8 @@
     "label": "Merchandise",
     "link": " ",
     "submenu": [
-      { "label": "Cruising the QLD Coast Book", "link": "/merchandise/cruising-qld-coast-book" },
-      { "label": "Maria's Watercolours", "link": "/merchandise/marias-watercolours" }
+      { "label": "Cruising the QLD Coast Book", "link": "/merchandise/cruising-qld-coast-book", "breadCrumb": "Cruising the Queensland Coast Book" },
+      { "label": "Maria's Watercolours", "link": "/merchandise/marias-watercolours", "breadCrumb": "Payment" }
     ]
   }
 ]
