@@ -22,7 +22,7 @@ function WindSongFooter() {
                 alt="footer_logo"
                 className="w-[18rem]"
               /> */}
-              <h1 className="text-gray-500 font-bold text-7xl lg:text-8xl" style={{fontFamily: "Snell Roundhand, cursive"}}>WindSong</h1>
+              <h1 className="text-gray-500 font-bold text-7xl lg:text-8xl" style={{fontFamily: "Snell Roundhand, cursive"}}><a href="/">WindSong</a></h1>
               <p className="text-lg font-medium text-gray-500">
               Email us, call us or fill out an enquiry form.     We are happy to answer all of your questions.
               Manly Boat Harbour, Moreton Bay, Manly QLD 4179
