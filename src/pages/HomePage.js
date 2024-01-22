@@ -6,8 +6,9 @@ import {
   StickyBackground,
   MostPopular,
   Product,
+  HeroVideo,
+  WindSongFooter
 } from "../components";
-import HeroVideo from "../components/HeroVideo";
 function HomePage() {
   return (
     <div className="text-gray-600">
@@ -31,6 +32,7 @@ function HomePage() {
       </div>
 
       <HeroVideo />
+      <WindSongFooter />
     </div>
   );
 }

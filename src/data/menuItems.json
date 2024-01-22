@@ -4,8 +4,8 @@
     "label": "Destination",
     "link": " ",
     "submenu": [
-      { "label": "Horseshoe Bay, Peel Is", "link": "/destination/horseshoe-bay", "breadCrumb": "Destination: Horseshoe Bay, Peel Island" },
-      { "label": "Platypus Bay, Peel Is", "link": "/destination/platypus-bay", "breadCrumb": "Destination: Platypus Bay, Peel Island" },
+      { "label": "Horseshoe Bay, Peel Is", "link": "/destination-horseshoe-bay-peel-island", "breadCrumb": "Destination: Horseshoe Bay, Peel Island" },
+      { "label": "Platypus Bay, Peel Is", "link": "/destination-platypus-bay-peel-island", "breadCrumb": "Destination: Platypus Bay, Peel Island" },
       { "label": "The Lazarette, Peel Is", "link": "/destination/the-lazarette", "breadCrumb": "Destination: The Lazarette, Peel Island" },
       { "label": "Bird Islet Sandbar", "link": "/destination/bird-islet-sandbar", "breadCrumb": "Destination: Bird Islet Sandbar & Goat Island" },
       { "label": "Lucinda Bay, Moreton Is", "link": "/destination/lucinda-bay", "breadCrumb": "Lucinda Bay, Moreton Island" },
