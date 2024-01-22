@@ -43,7 +43,7 @@ function WindSongFooter() {
               </div>
               <p className="text-[16px] font-medium text-gray-500">
                 Privacy Policy | © {new Date().getFullYear()} WindSong <br />{" "}
-                Design by{" wang "}
+                Design by{" Integra Dev "}
               </p>
             </div>
 
